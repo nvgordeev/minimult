@@ -1,8 +1,9 @@
 <script>
     import questions from '../../stores/questions.js';
     import survey from '../../stores/survey.js';
-    import SCREENS from '../../constants/screens.js';
     import currentScreen from '../../stores/currentScreen.js';
+
+    import SCREENS from '../../constants/screens.js';
 
     const lastQuestionIndex = $questions.length - 1;
 

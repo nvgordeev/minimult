@@ -6,11 +6,8 @@
 	import Survey from './components/screens/Survey.svelte';
 
 	import Screen from './components/common/Screen.svelte';
-	export let name;
 
-	import screens from './constants/screens.js'
-
-
+	import SCREENS from './constants/screens.js'
 </script>
 
 <style>
@@ -21,19 +18,19 @@
 </header>
 
 <main>
-	<Screen id={ screens.ROOT }>
+	<Screen id={ SCREENS.ROOT }>
 		<Main/>
 	</Screen>
-	<Screen id={ screens.REGISTRATION }>
+	<Screen id={ SCREENS.REGISTRATION }>
 		<Registration/>
 	</Screen>
-	<Screen id={ screens.SURVEY }>
+	<Screen id={ SCREENS.SURVEY }>
 		<Survey/>
 	</Screen>
-	<Screen id={ screens.RESULT }>
+	<Screen id={ SCREENS.RESULT }>
 		<Result/>
 	</Screen>
-	<Screen id={ screens.ARCHIVE }>
+	<Screen id={ SCREENS.ARCHIVE }>
 		<Archive/>
 	</Screen>
 </main>

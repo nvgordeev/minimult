@@ -20,6 +20,7 @@
 </script>
 
 <form on:submit={onSavePerson }>
+
   <label for="name">ФИО</label>
   <input bind:value={ name } type="text" id="name" required>
 

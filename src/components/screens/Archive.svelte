@@ -6,5 +6,4 @@
 <article>
   Archive
   <Link to={ SCREENS.ROOT }>Выход </Link>
-
 </article>
